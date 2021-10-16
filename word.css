@@ -1,0 +1,142 @@
+body {
+	margin: 20px;
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.alphapanel {
+	flex-wrap: column;
+	background-image: url("https://image.freepik.com/free-photo/colourful-brick-wall-seamless-pattern-with-copy-space-background_23-2148283321.jpg");
+	max-width: 65%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 16.5%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	justify-content: space-around;
+	padding-left: 2.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.alphapanel button {
+	margin: 10px;
+	padding: 15px;
+	color: black;
+	border-radius: 10px 5%;
+	font-size: large;
+	font-weight: 400;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.alphapanel button:hover {
+	background-color: rgb(187, 236, 236);
+}
+
+.riddle {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 10%;
+	margin-left: 17%;
+	font-size: larger;
+	font-weight: 600;
+	color: black;
+	font-family: Verdana, Tahoma, sans-serif;
+	background: linear-gradient(
+		90deg,
+		rgba(234, 233, 255, 1) 0%,
+		rgba(252, 167, 213, 1) 35%,
+		rgba(194, 245, 255, 1) 100%
+	);
+	box-shadow: 0 0 6px 6px orchid;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	max-width: 64%;
+	padding: 20px;
+}
+
+.clue,
+.letter,
+.rules,
+.submit {
+	padding: 2%;
+	border-radius: 90%;
+	font-size: large;
+	color: black;
+	font-weight: 700;
+}
+
+.clue {
+	margin-left: 14%;
+}
+
+.letter,
+.rules,
+.submit {
+	margin-left: 3%;
+}
+
+.lives {
+	padding: 1%;
+	margin: 2%;
+}
+
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2%;
+	margin-left: 15%;
+	margin-bottom: 2%;
+}
+
+.clue:hover,
+.letter:hover,
+.rules:hover,
+.submit:hover {
+	background-color: palegreen;
+}
+
+.ans {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 17px;
+}
+
+.ans_btn {
+	margin-left: 33%;
+	font-size: larger;
+	font-weight: 600;
+	color: black;
+	font-family: cursive;
+}
+
+#ans1,
+#ans2,
+#ans3,
+#ans4,
+#ans5,
+#ans6,
+#ans7 {
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+.rule {
+	font-weight: 400;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+	.icons button {
+		margin-left: 1%;
+	}
+
+	.ans_btn {
+		margin-left: 10%;
+	}
+}
