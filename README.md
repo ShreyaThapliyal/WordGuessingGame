@@ -4,7 +4,7 @@
 I'm a learing front end in web development...
 
 # WordGuessingGame
-Developed a responsive website game in which you have to answer a riddle and if you guessed it right you win otherwise you lose. For detail rules, you can view it on the game homepage.
+Developed a responsive website game in which you have to answer a riddle. For detailed rules, you can view it on the game homepage.
 
 # Deployed website link
 https://shreyathapliyal.github.io/WordGuessingGame/
